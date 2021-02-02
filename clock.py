@@ -2,9 +2,11 @@ from tkinter import *
 from tkinter.ttk import *
 
 from time import strftime
+import time
 
 root = Tk()
 root.title("Clock")
+root.iconbitmap(r'C:\Users\Utilizador\Downloads\clock_icon.ico')
 
 def time():
     string = strftime('%H:%M:%S %p')
