@@ -15,7 +15,7 @@ def time():
 
 
 label = Label(root, font=("ds-digital", 80), background= "black", foreground="blue")
-label.pack(anchor='center')
+label.pack(anchor='center', expand= TRUE, fill = BOTH)
 time()
 
 mainloop()
